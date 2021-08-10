@@ -12,14 +12,14 @@ const navLinks = [
 ];
 
 export default function Header() {
-  const [isLargerThan500px] = useMediaQuery("(min-width: 700px)");
+  const [isLargerThan700px] = useMediaQuery("(min-width: 700px)");
   const { isOpen, onOpen, onClose } = useDisclosure();
   const btnRef = React.useRef()
 
   return (
     <Flex as='header' justifyContent='space-between' p={4} align='center'>
 
-      { isLargerThan500px ? (
+      { isLargerThan700px ? (
         <Text fontWeight='semibold' fontSize='2xl' color='blue.200'>Portfolio</Text>
       ) : (
         <IconButton
@@ -31,7 +31,7 @@ export default function Header() {
 
       <Spacer />
 
-      { isLargerThan500px ? (
+      { isLargerThan700px ? (
         <HStack as='nav' fontWeight={'extrabold'} spacing={4} color='gray.500' mr={10}>
           { navLinks.map((link, idx) => {
               return (
