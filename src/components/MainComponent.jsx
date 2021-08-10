@@ -126,47 +126,47 @@ export default function MainComponent() {
             <Heading fontSize='4xl' fontWeight='extrabold' my={20} color='green.300'>Projects</Heading>
             <Center>
               <Wrap align='center' justify='center'>
-                <Box w='400px' h='400px' bgColor={mode('gray.100', 'gray.900')} border='2px solid' 
+                <Box w={{base: '300px', sm: '350px', md: '400px'}} h={{base: '300px', sm: '350px', md: '400px'}} bgColor={mode('gray.100', 'gray.900')} border='2px solid' 
                   borderColor='gray.600' rounded='10px' boxShadow='dark-lg' _hover={{transform: 'scale(1.25)'}}>
                   <Link href='https://dquo-movie-react-app.netlify.app'>
                     <Image src='movieproject.png' alt='Movie App Project' rounded='10px' />
                   </Link>
                   <VStack mt={2}>
                     <Heading mb={5} fontSize='2xl'>Movie Database App</Heading>
-                    <Text>Search for any movie and see an overview.</Text>
+                    <Text fontSize={{base: 'sm', sm: 'medium' }}>Search for any movie and see an overview.</Text>
                   </VStack>
                 </Box>
 
-                <Box w='400px' h='400px' bgColor={mode('gray.100', 'gray.900')} border='2px solid' 
+                <Box w={{base: '300px', sm: '350px', md: '400px'}} h={{base: '300px', sm: '350px', md: '400px'}} bgColor={mode('gray.100', 'gray.900')} border='2px solid' 
                   borderColor='gray.600' rounded='10px' boxShadow='dark-lg' _hover={{transform: 'scale(1.25)'}}>
                   <Link href='https://21-blackjack-dquo.netlify.app'>
                     <Image src='blackjack.png' rounded='10px' />
                   </Link>
                   <VStack mt={2}>
                     <Heading mb={5} fontSize='2xl'>Hackathon Blackjack App</Heading>
-                    <Text>Play 21/Blackjack against the computer. Mintbean Hackathon July 2021.</Text>
+                    <Text fontSize={{base: 'sm', sm: 'medium' }}>Play 21/Blackjack against the computer. Mintbean Hackathon July 2021.</Text>
                   </VStack>
                 </Box>
 
-                <Box w='400px' h='400px' bgColor={mode('gray.100', 'gray.900')} border='2px solid' 
+                <Box w={{base: '300px', sm: '350px', md: '400px'}} h={{base: '300px', sm: '350px', md: '400px'}} bgColor={mode('gray.100', 'gray.900')} border='2px solid' 
                 borderColor='gray.600' rounded='10px' boxShadow='dark-lg' _hover={{transform: 'scale(1.25)'}}>
                   <Link href='https://dquo-video-chat-app.netlify.app/'>
                     <Image src='videochat.png' rounded='10px' />
                   </Link>
                   <VStack mt={2}>
                     <Heading mb={5} fontSize='2xl'>View Chat App</Heading>
-                    <Text>An web application to do voice and video chat over the internet.</Text>
+                    <Text fontSize={{base: 'sm', sm: 'medium' }}>An web application to do voice and video chat over the internet.</Text>
                   </VStack>
                 </Box>
 
-                <Box w='400px' h='400px' bgColor={mode('gray.100', 'gray.900')} border='2px solid' 
+                <Box w={{base: '300px', sm: '350px', md: '400px'}} h={{base: '300px', sm: '350px', md: '400px'}} bgColor={mode('gray.100', 'gray.900')} border='2px solid' 
                 borderColor='gray.600' rounded='10px' boxShadow='dark-lg' _hover={{transform: 'scale(1.25)'}}>
                   <Link href='https://dquo-viewtube-app.netlify.app/'>
                     <Image src='viewtube.png' rounded='10px' />
                   </Link>
                   <VStack mt={2}>
                     <Heading mb={5} fontSize='2xl'>ViewTube App</Heading>
-                    <Text>An web application to search for youtube videos.</Text>
+                    <Text fontSize={{base: 'sm', sm: 'medium' }}>An web application to search for youtube videos.</Text>
                   </VStack>
                 </Box>
               </Wrap>
