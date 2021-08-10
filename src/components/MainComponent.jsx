@@ -184,10 +184,10 @@ export default function MainComponent() {
             </Center>
             <Center>
               <Link href='https://www.linkedin.com/in/deonte-waller-aa354a206/'>
-                <Icon as={FaLinkedin} w='3rem' h='3rem' color='whiteAlpha.300' />
+                <Icon as={FaLinkedin} w='3rem' h='3rem' color={mode('blue', 'whiteAlpha.300')} />
               </Link>
               <Link href='https://www.github.com/DQuo' ml={3}>
-                <Icon as={FaGithub} w='3rem' h='3rem' color='whiteAlpha.300' />
+                <Icon as={FaGithub} w='3rem' h='3rem' color={mode('blue', 'whiteAlpha.300')} />
               </Link>
             </Center>
           </Stack>
